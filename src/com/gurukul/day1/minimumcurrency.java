@@ -1,3 +1,4 @@
+///W.A.P input the amount/
 package com.gurukul.day1;
 
 import java.util.Scanner;
