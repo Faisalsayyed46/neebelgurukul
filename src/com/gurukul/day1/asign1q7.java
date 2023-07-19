@@ -1,4 +1,4 @@
-package day1assignment;
+package com.gurukul.day1;
 
 import java.util.Scanner;
 
@@ -22,7 +22,7 @@ public class asign1q7 {
 			System.out.println("am");
 		}
 		System.out.println(hr12);
-		System.out.println(hr12+":"+min+"pm");
+		System.out.println(hr12+":"+min);
 		
 	}
 
