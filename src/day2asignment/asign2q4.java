@@ -19,13 +19,12 @@ public class asign2q4 {
 			System.out.println(x + "and" + y + "3rd quadrant");
 		else if(x>0 && y<0)
 			System.out.println(x + "and" + y + "4th quadrant");
-		else if(x==0 && y>0)
+		else if(x==0 && y!=0)
 			System.out.println(x + "and" + y + "Y axis");
-		else if(x>0 && y==0)
+		else if(x!=0 && y==0)
 			System.out.println(x + "and" + y + "X axis");
 		else
-			System.out.println("lies in the origin");
-			
+			System.out.println("lies in the origin");		
 	}
 
 }
