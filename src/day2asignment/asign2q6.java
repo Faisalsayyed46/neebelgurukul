@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class asign2q6 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter number ");
 		int lower=sc.nextInt();
