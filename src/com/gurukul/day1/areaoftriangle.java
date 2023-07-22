@@ -1,3 +1,4 @@
+//area of triangle when 3 side is given
 package com.gurukul.day1;
 
 import java.util.Scanner;

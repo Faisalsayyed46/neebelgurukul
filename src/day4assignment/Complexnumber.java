@@ -60,7 +60,4 @@ public class Complexnumber {
            System.out.println(d);//.78+i0.02
 		
 	}
-
 }
-
-
