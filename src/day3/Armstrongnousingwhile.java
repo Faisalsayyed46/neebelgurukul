@@ -5,24 +5,31 @@ import java.util.Scanner;
 public class Armstrongnousingwhile {
 
 	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter a number ");
-		int n=sc.nextInt();
-		int count=0;
-		double total=0;
-		int n=counttotal;
-		while(n!=0) {
-			count++;
-			n=n/10;
-		}
-		while(n!=0)
+		// TODO Auto-generated method stub
+		System.out.println("Enter a number");
+		Scanner sc = new Scanner(System.in);
+		int x = sc.nextInt();
+		int z = x;
+		int y =x;
+		int count = 0;
+		double m = 0;
+		while(x!=0)
 		{
-			double a=a%10;
-			a=Math.pow(a,count);
-			total=total+a;
+			count++;
+			x=x/10;
 		}
-		if(n==total)
-			System.out.println("armstrong");
+		while(z!=0)
+		{
+			int a = z%10;
+			m = m + Math.pow(a, count);
+			z=z/10;
 		}
+		if(m==y)
+		{
+			System.out.println(y+" is an armstrong number");
+		}
+		else
+			System.out.println(y+" is not an armstrong number");
 	}
 
+}

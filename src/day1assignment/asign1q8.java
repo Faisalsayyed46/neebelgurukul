@@ -6,24 +6,38 @@ public class asign1q8 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter a name ");
-		int name=sc.nextInt();
-		System.out.println("Enter a unit");
-		int unit=sc.nextInt();
-		if(unit<=100)
+		String name;
+		double units,charge,amount ;
+		System.out.println("Enter the name ");
+		Scanner sc = new Scanner(System.in);
+		name = sc.nextLine();
+		System.out.println("Enter the number of units ");
+		units = sc.nextDouble();
+		double temp = units;
+		if(units < 100)
 		{
-			int charge=unit*4;
+			charge = units * 4;
 		}
-		else if(unit<=300)
+		else if(units <= 300)
 		{
-			unit=unit-100;
-			charge=(100*4)+(unit*5);
+			units = units - 100;
+			charge = (100 * 4)+(units * 5);
 		}
 		else
 		{
-			
+			units = units-300;
+			charge = (100 * 4)+(200 * 5)+(units*10);
 		}
+		
+		if(charge > 1000)
+		{
+			charge = charge + (charge*5/100);
+		}
+		amount = charge + (charge*18/100);
+		
+		System.out.println("Name: "+name);
+		System.out.println("Units: "+temp);
+		System.out.println("Amount: "+amount);
 	}
 
 }
