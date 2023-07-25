@@ -5,15 +5,11 @@ import java.util.Scanner;
 public class Naturalno {
 
 	public static void main(String[] args) {
-		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter ");
-		int n=sc.nextInt();
-		for(int i = 1;i<=n;i++) {
-			if(n<=50)
-			System.out.println(n);
+		
+		for(int i = 1;i<=100;i++) {
+			if(i<50)
+			System.out.println(i);
+			i=101; 
 		}
-		System.out.println();
-
 	}
-
-}
+	}
