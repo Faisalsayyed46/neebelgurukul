@@ -2,7 +2,7 @@ package assignment9;
 
 import java.util.Scanner;
 
-public class CountWords {
+public class RemoveWhiteSpaces {
 
     public static void main(String[] args) {
 	// TODO Auto-generated method stub
@@ -11,8 +11,15 @@ public class CountWords {
 	String s = sc.nextLine();
 
 	String[] arr = s.split(" ");
-	System.out.println(arr.length);
-
+	String ans = "";
+	for (int i = 0; i < arr.length; i++) {
+	    ans = ans + arr[i];
+	}
+	if (ans == "") {
+	    System.out.print("empty string after removing all the whitespace");
+	} else {
+	    System.out.print(ans);
+	}
     }
 
 }
